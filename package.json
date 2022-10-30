@@ -1,0 +1,22 @@
+{
+  "name": "ecoledirectebot",
+  "version": "0.0.1",
+  "description": "useful discord bot based on Ecole Directe api",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Truiteseche/EcoleDirecteBot.git"
+  },
+  "author": "Truite Séchée",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Truiteseche/EcoleDirecteBot/issues"
+  },
+  "homepage": "https://github.com/Truiteseche/EcoleDirecteBot#readme",
+  "dependencies": {
+    "discord.js": "^14.6.0"
+  }
+}
