@@ -1,0 +1,6 @@
+
+# ignore config file which contains discord bot's token
+/config.js
+
+#ignore node dependencies files
+/node_modules
