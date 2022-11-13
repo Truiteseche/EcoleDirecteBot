@@ -2,5 +2,8 @@
 # ignore config file which contains discord bot's token
 /config.js
 
-#ignore node dependencies files
+# ignore nodejs dependencies files
 /node_modules
+
+# ignore config file for ESLint vscode extension
+/.eslintrc.json

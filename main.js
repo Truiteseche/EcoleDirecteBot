@@ -1,7 +1,7 @@
 
 // Require the necessary discord.js classes
-const { Client, Events, GatewayIntentBits } = require('discord.js');
-const { token } = require('./config.json');
+const { Client, Events, GatewayIntentBits } = require("discord.js");
+const { token } = require("./config.json");
 
 // Create a new client instance
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
@@ -10,8 +10,9 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 // We use 'c' for the event parameter to keep it separate from the already defined 'client'
 client.once(Events.ClientReady, c => {
 	console.log(`Ready! Logged in as ${c.user.tag}`);
-});-
+});
 
 
 // Log in to Discord with your client's token
 client.login(token);
+// https://discordjs.guide/preparations/setting-up-a-linter.html#setting-up-eslint-rules
